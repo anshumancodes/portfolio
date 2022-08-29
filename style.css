@@ -125,6 +125,9 @@ main {
   animation-direction: alternate;
 
 }
+.hero-illustration img{
+  height: 300px;
+}
 
 @keyframes floatBubble {
   from {
