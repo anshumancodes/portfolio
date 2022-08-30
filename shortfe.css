@@ -88,6 +88,7 @@ footer{
   justify-content: center;
   align-items: center;
   background: url('Frame 1 (4).png') no-repeat;
+  overflow-x: hidden;
 
   
  
