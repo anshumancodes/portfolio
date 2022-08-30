@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 
   /* background-color: #24305e; */
   background-color: rgb(15, 22, 36);
