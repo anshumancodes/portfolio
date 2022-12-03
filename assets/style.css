@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+/* specials */
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/*  */
+
+/* navbar */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+
+
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    width:50% ;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+
+    
+}
+/* body */
+body{
+    background-color:#222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_{
+    padding-top: 20vh;
+    color: white;
+    width: 80%;
+    display:  flex;
+    justify-content:space-between;
+    height: 80vh;
+    align-items: center;
+
+    
+}
+.illustration_ img{
+    width: 450px;
+}
+.hero-head{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+.hero-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.links_{
+    
+    width: 10vw;
+    display: flex;
+    
+    margin-top: 3vh;
+}
+.links_ a{
+    color: white;
+    font-size: 1.7rem;
+
+}
+.links_ a:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+    color: #8dafce;
+}
+.margin-left{
+    margin-left: 2vw;
+}
+.hero-btn{
+    width: 7rem;
+    height: 6vh;
+    margin-top: 3vh;
+    border-radius: 6px;
+    background-color: #8dafce;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.aboutme_{
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    
+    justify-content: center;
+}
+.abt-me-con{
+    display: flex;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+color: white;
+    
+}
+.abt-me-con  a{
+    text-decoration: none;
+    color: #8dafce;
+}
+.for-q{
+    margin-left: 8vw;
+}
+.for-q h2{
+    font-weight: 700;
+}
+.mail-icon{
+    font-size: 1.5rem;
+    margin-top: 1vh;
+}
+.mail{
+    font-size: 1.2rem;
+    margin-left: 0.5vw;
+}
+/* .reqforresume{
+    margin-top: 2vh;
+    border-radius: 5px;
+    width: 11vw;
+    height: 6vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #8dafce;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+} */
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.project-w{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    width: 60%;
+    height: 30vh;
+    margin-left: 10vw;
+    border-radius: 8px;
+
+}
+.project-fce{
+    display: flex;
+    flex-direction: column;
+    background:#8dafce;
+    color:white;
+    width: 60%;
+    height: 30vh;
+    margin-left: 10vw;
+    border-radius: 8px;
+    margin-top: 10vh;
+}
+.text-con-p{
+    margin: 5vh 3vw 5vh 3vw;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.visit{
+    width: 5rem;
+    height: 5vh;
+    color: white;
+    background:#8dafce;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 2vh;
+}
+.visit-fce{
+    width: 5rem;
+    height: 5vh;
+    color: white;
+    background:#222;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 2vh;
+}
+.workenq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 50%;
+    background: white;
+    height: 20vh;
+    color: black;
+    margin-bottom: 10vh;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+.enq-head{
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+.enq-chat{
+    height: 5vh;
+    width: 6rem;
+    color: white;
+    background: #8dafce;
+    border: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+footer{
+    height: 40vh;
+    background: #1f1f1f;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.t1{
+font-size: 2.5rem;
+font-weight: 700;
+}
+.t2 ,.t3{
+    margin-top: 2vh
+}
+.footer-links{
+    margin-top: 3vh;
+}
+.f-links{
+    color: white;
+    font-size: 2rem;
+    margin-left: 2vw;
+    
+}
+
